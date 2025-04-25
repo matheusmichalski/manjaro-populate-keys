@@ -2,11 +2,12 @@
 
 sudo rm -r /var/lib/pacman/sync
 sudo pacman -Syy
-sudo pacman -Syyu
 
 sudo pacman-key --init
+sudo pacman-key --populate archlinux
 sudo pacman-key --populate manjaro
 
-sudo pacman-key --refresh-keys
+sudo pacman-key --refresh-keys--allow-weak-key-signatures
 
+sudo pacman -Syyu
 sudo pacman -Syu
