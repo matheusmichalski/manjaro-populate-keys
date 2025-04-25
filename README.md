@@ -39,14 +39,16 @@ Você pode executar este script diretamente via `curl` ou `wget`:
 ### Usando `curl`
 
 ```bash
-bash <(curl -s https://raw.githubusercontent.com/matheusmichalski/manjaro-populate-keys.git/main/populate-manjaro-keys.sh)
+bash <(curl -s https://raw.githubusercontent.com/matheusmichalski/manjaro-populate-keys/main/populate-manjaro-keys.sh)
 ```
 
 ### Usando `wget`
 
 ```bash
-bash <(wget -qO- https://raw.githubusercontent.com/matheusmichalski/manjaro-populate-keys.git/main/populate-manjaro-keys.sh)
+bash <(wget -qO- https://raw.githubusercontent.com/matheusmichalski/manjaro-populate-keys/main/populate-manjaro-keys.sh)
 ```
+
+💡 Observação: O script utiliza comandos com `sudo`, então será solicitado que você informe sua senha de administrador durante a execução. Certifique-se de ter permissões suficientes no sistema para isso.
 
 ---
 
