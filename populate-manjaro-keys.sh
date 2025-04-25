@@ -7,7 +7,7 @@ sudo pacman-key --init
 sudo pacman-key --populate archlinux
 sudo pacman-key --populate manjaro
 
-sudo pacman-key --refresh-keys--allow-weak-key-signatures
+sudo pacman-key --refresh-keys --allow-weak-key-signatures
 
 sudo pacman -Syyu
 sudo pacman -Syu
